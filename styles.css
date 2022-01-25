@@ -1,0 +1,106 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: grey;
+}
+h1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#Quadro{
+    justify-content: center;
+    align-content: center;
+    border: 0px solid white;
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    grid-template-rows: 60px 60px 60px 60px 60px 60px;
+    grid-template-columns: 60px 60px 60px 60px 60px;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.letra{
+    border-radius: 7px;
+    border: 5px solid rgb(73, 22, 22);
+    width: 60px;
+    height: 60px;
+}
+
+#letraAntes{
+    background-color: rgb(43, 43, 43);
+    border: 1px solid white;
+    width: 60px;
+    height: 60px;
+}
+
+#letrProxima{
+    background-color: rgb(43, 43, 43);
+    border: 1px solid white;
+    width: 60px;
+    height: 60px;
+}
+
+#letraCerta{
+    background-color: rgb(37, 136, 37);
+    border: 1px solid white;
+    width: 60px;
+    height: 60px;
+}
+
+#letraInexistente{
+    background-color: rgb(85, 9, 9);
+    border: 1px solid white;
+    width: 60px;
+    height: 60px;
+}
+#teclado{
+    justify-content: center;
+    align-content: center;
+    border: 0px solid red;
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+
+    column-gap: 30px;
+ 
+}
+#row-1{
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+}
+#row-2{
+    display: grid;
+    column-gap: 20px;
+    padding-top: 20px;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+}
+#row-3{
+    display: grid;
+    column-gap: 20px;
+    padding-top: 40px;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+}
+.tecla{
+    font-size: 30px;
+    color: lavender;
+    line-height: 60px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(43, 43, 43);
+    border: 1px solid white;
+    width: 60px;
+    height: 60px;
+}
+
+
+
+#enter{
+    width: 110px;
+}
+#apagar{
+    width: 130px;
+}
